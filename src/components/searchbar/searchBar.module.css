@@ -1,0 +1,29 @@
+.searchBar {
+    margin-top: 40px;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}
+.searchInput {
+    width: 50%;
+    padding: 12px 20px;
+    border: solid rgb(33, 119, 2);
+    border-radius: 7px 0px 0px 7px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 5px rgb(28, 247, 8);
+}
+
+.buttonContainer{
+    display: flex;
+}
+
+.button{
+    width: 80px;
+    height: 45px;
+    background-color: rgb(142, 231, 142);
+    border-radius: 0px 7px 7px 0px;
+    fill: rgb(6, 151, 30);
+}
+

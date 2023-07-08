@@ -1,0 +1,49 @@
+.navContainer{
+  display: flex;
+  align-items: center;
+  position:fixed;
+  justify-content:flex-end;
+  border: solid black 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(26, 136, 187);
+  box-shadow: 13px 24px 9px -1px rgba(0,0,0,0.66);
+-webkit-box-shadow: 13px 24px 9px -1px rgba(0,0,0,0.66);
+-moz-box-shadow: 13px 24px 9px -1px rgba(0,0,0,0.66);
+}
+
+.buttonContainer{
+    display: flex;
+}
+
+.neonButton {
+    border: black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: rgb(59, 102, 3);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 20px ;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7),
+                0 0 20px rgba(0, 255, 255, 0.5),
+                0 0 30px rgba(0, 255, 255, 0.3);
+  }
+  
+  .neonButton:hover {
+    animation: neonAnimation 1s ease-in-out infinite alternate;
+  }
+
+
+/* display: flex;
+margin-bottom: 25px;
+flex-direction:row;
+justify-content: space-between;
+width: 100%;
+border-top: rgb(19, 1, 99);
+border-bottom: green;
+padding: 5px 0px; */
